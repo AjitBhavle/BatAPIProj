@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BatteryBankAPI]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BatteryBankAPI(failed)">
+    <classes>
+      <class name="mainTestCases.GetBatteryDetails">
+        <methods>
+          <include name="setupBaseUrl"/>
+          <include name="afterClass"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="testLogger"/>
+          <include name="getBatteryDetails"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- mainTestCases.GetBatteryDetails -->
+    </classes>
+  </test> <!-- BatteryBankAPI(failed) -->
+</suite> <!-- Failed suite [BatteryBankAPI] -->
