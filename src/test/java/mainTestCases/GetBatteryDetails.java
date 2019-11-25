@@ -7,8 +7,6 @@ import org.testng.annotations.Test;
 import baseClass.BaseTest;
 
 public class GetBatteryDetails extends BaseTest {
-
-		
 			
 			@Test()
 			public void getBatteryDetails() {
