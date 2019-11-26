@@ -12,7 +12,7 @@ public class GetBatteryDetails extends BaseTest {
 			public void getBatteryDetails() {
 				
 				given().accept("json").contentType("application/json")
-				.when().get("/battery?batteryId=1")//get("http://inventorymanagement.mocklab.io/battery?batteryId=1")
+				.when().get("/battery?batteryId=1")
 				.then().assertThat().body("betteryModel", equalTo("amaron")).statusCode(200);
 				
 			}
